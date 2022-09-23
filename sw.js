@@ -4,7 +4,7 @@ var APP_PREFIX = 'pwae_';
  
 // The version of the cache. 
 // Every time you change any file you need to change this version. 
-var VERSION = 'v0.0.3';
+var VERSION = 'v0_0_3';
  
 // The files to make available for offline use. make sure to add 
 // others to this list
