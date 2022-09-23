@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PWA example</title>
+  <link rel="canonical" href="https://is-t51.github.io/pwa/" />
+  <link rel="manifest" href="/pwa/manifest.webmanifest">
+</head>
+<body>
+  <h1>PWA example</h1>
+    …
+  <script>
+      if (navigator.serviceWorker) {
+        navigator.serviceWorker.register (
+          '/pwa/sw.js',
+          {scope: '/pwa/'}
+        )
+      }
+  </script>
+</body>
+</html>

@@ -1,0 +1,30 @@
+{
+    // Name of the app and short name in case there isn't enough space
+    "name": "PWA example",
+    "short_name": "PWAexample",
+    // Description what your app is
+    "description": "Esempio di una Progressive Web App",
+   
+    // Scope and start URL - these need to change to yours
+    "scope": "/pwa/",
+    "start_url": "/pwa/",
+   
+    // colours of the app as displayed in the installer
+    "background_color": "#ff831c",
+    "theme_color": "#ff831c",
+   
+    // Display of the app. 
+    //This could be "standalone", "fullscreen", "minimal-ui" or "browser"
+    "display": "standalone", 
+   
+    // The possible icons to display. Make sure to change the src URL,
+    // the type and the size to your needs. If the size isn't correct, 
+    // you may not be able to install the app. 
+    "icons": [
+        {
+          "src": "/pwa/img/icon.png",
+          "type": "image/png",
+          "sizes": "700x700"
+        }
+    ]
+  }
