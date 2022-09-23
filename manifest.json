@@ -1,0 +1,26 @@
+{
+  "name": "PWA example",
+  "short_name": "PWAE",
+  "description": "Esempio di una Progressive Web App",
+
+  "display": "standalone",
+
+  "background_color": "#ff831c",
+  "theme_color": "#ff831c",
+
+  "scope": "/pwa/",
+  "start_url": "/pwa/",
+
+  "icons": [
+    {
+      "src": "./img/512x512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    },
+    {
+      "src": "./img/96x96.png",
+      "type": "image/png",
+      "sizes": "96x96"
+    }
+  ]
+}
